@@ -1,7 +1,7 @@
 import telebot
 import feed
 
-token = '1120669344:AAH1oAdfuy1t_Bu4KCePcZZwGwRtfqt3IG8'
+token =''
 rss_iran = "https://www.irinn.ir/fa/rss/allnews"
 rss_bbc = "http://www.bbc.co.uk/persian/index.xml"
 
