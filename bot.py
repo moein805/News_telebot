@@ -1,6 +1,7 @@
 import telebot
 import feed
 
+namebot:''
 token =''
 rss_iran = "https://www.irinn.ir/fa/rss/allnews"
 rss_bbc = "http://www.bbc.co.uk/persian/index.xml"
@@ -27,6 +28,6 @@ def start_message(message):
 def start_message(message):
     keyboard = telebot.types.ReplyKeyboardMarkup(True)
     keyboard.row('/bbc', '/iran', '/start')
-    bot.send_message(message.chat.id, 'fuck_nows', reply_markup=keyboard)
+    bot.send_message(message.chat.id, 'namebot', reply_markup=keyboard)
 print ("ok")
 bot.polling()
